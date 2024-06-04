@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>URL Shortener</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+ <div class="container">
+  <h1>URL Shortener</h1>
+  <div class="input-section">
+   <input type="text" id="long-url" placeholder="Enter long URL">
+   <input type="text" id="custom-url" placeholder="Enter custom short URL (optional)">
+   <button onclick="shortenUrl()">Shorten URL</button>
+  </div>
+  <div id="result-section" class="hidden">
+   <h2>Shortened URL</h2>
+   <p id="short-url"></p>
+   <button onclick="copyToClipboard()">Copy to Clipboard</button>
+   <div id="qr-code"></div>
+   <h3>Link Analysis</h3>
+   <p id="clicks-count">Clicks: 0</p>
+  </div>
+ </div>
+ <script src="long.js"></script>
+</body>
+<!-- API
+ Benefits of API
+HANA CLOUD
+SAP AI Services
+App Router
+Zero Strategy
+-->
+</html>
